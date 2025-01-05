@@ -37,7 +37,7 @@
  import orderRoutes from "./routes/orders.js";
  app.use("/api/v1/orders", orderRoutes);
 
- import stripeRoute from "./routes/Strip2.js";
+ import stripeRoute from "./routes/Strip.js";
  app.use("/api/stripe", stripeRoute);
 
   import adminRoute from "./routes/adminroute.js";
